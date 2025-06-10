@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="ideia style.css" />
+    <title>interação</title>
+  </head>
+  <body>
+    <main>
+      <h1>
+        Seja bem vindo!
+        <div id="nomeExposto"></div>
+      </h1>
+    
+      <label for="nomeUser" id="digitarNomeLabel"
+        >Digite seu nome para começarmos</label
+      >
+       <div id="labelInput"> 
+        <input type="text" name="nomeUser" id="nomeUser" placeholder="nome:" />
+        <div id="nomeObrigatorio">Insira o seu nome ou qualquer outro!!!</div>
+        <div id="nomeInvalido">O nome não pode conter símbolos ou números!!!</div>
+      <div id="direcionarBotaoFim">
+      </div>
+        <button onclick="pegarNome()" id="pegarNome" >Enviar</button>
+      </div>
+      <h2>Vamos participar de uma interação agora!</h2>
+      <div id="acentarBotao"><button id="botaoEntrar" onclick="validarNome()">ENTRAR</button type = "button"></div>
+    </main>
+    <script src="ideia main.js"></script>
+  </body>
+</html>

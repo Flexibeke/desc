@@ -1,0 +1,65 @@
+main {
+  font-family: sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h1,
+h2 {
+  text-align: center;
+}
+#acentarBotao {
+  display: flex;
+  justify-content: center;
+}
+#pegarNome {
+  background-color: rgb(40, 188, 191);
+  border: none;
+  border-radius: 10px;
+  padding: 6px 17px;
+}
+#pegarNome:hover {
+  padding: 4px 14px;
+}
+#nomeUser {
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding: 4px;
+  border: none;
+  background-color: rgb(235, 235, 235);
+}
+#labelInput {
+  text-align: center;
+}
+#nomeExposto {
+  margin: 12px;
+}
+#direcionarBotaoFim {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+#nomeUser:focus {
+  box-shadow: 3px 2px 4px rgb(60, 0, 75);
+}
+#digitarNomeLabel {
+  display: block;
+  text-align: center;
+}
+#botaoEntrar {
+  background-color: rgb(86, 86, 255);
+  border: none;
+  border-radius: 10px;
+  padding: 8px 40px;
+}
+
+#nomeObrigatorio {
+  color: rgb(252, 9, 9);
+  display: none;
+}
+#nomeInvalido {
+  color: rgb(252, 9, 9);
+  display: none;
+}
