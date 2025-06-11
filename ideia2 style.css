@@ -1,53 +1,53 @@
 main {
-  font-family: sans-serif;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-h1 {
-  display: flex;
-  font-size: 23px;
-}
-label {
-  display: block;
-}
-input {
-  margin: 15px;
-}
-.separar {
-  text-align: center;
-}
-button {
-  background-color: rgb(86, 86, 255);
-  border: none;
-  border-radius: 10px;
-  padding: 6px 27px;
-  margin-top: 30px;
-}
-#centerPg6 {
-  text-align: center;
-}
-#erro {
-  color: rgb(252, 9, 9);
-  display: none;
-}
-#erroPg3 {
-  color: rgb(252, 9, 9);
-  display: none;
-}
-#erroPg4 {
-  color: rgb(252, 9, 9);
-  display: none;
-}
-#erroPg5 {
-  color: rgb(252, 9, 9);
-  display: none;
-}
-#hack {
-  display: none;
-}
-.bug {
-  color: red;
-  text-align: center;
-}
+    font-family: sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  h1 {
+    display: flex;
+    font-size: 16px;
+  }
+  label {
+    display: block;
+  }
+  input {
+    margin: 15px;
+  }
+  .separar {
+    text-align: center;
+  }
+  button {
+    background-color: rgb(86, 86, 255);
+    border: none;
+    border-radius: 10px;
+    padding: 6px 27px;
+    margin-top: 30px;
+  }
+  #centerPg6 {
+    text-align: center;
+  }
+  #erro {
+    color: rgb(252, 9, 9);
+    display: none;
+  }
+  #erroPg3 {
+    color: rgb(252, 9, 9);
+    display: none;
+  }
+  #erroPg4 {
+    color: rgb(252, 9, 9);
+    display: none;
+  }
+  #erroPg5 {
+    color: rgb(252, 9, 9);
+    display: none;
+  }
+  #hack {
+    display: none;
+  }
+  .bug {
+    color: red;
+    text-align: center;
+  }
