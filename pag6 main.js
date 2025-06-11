@@ -23,7 +23,7 @@ function verificarSim() {
   if (contarSim == 0) {
     resultado.textContent = `\nUOUU, parabéns viu, esse daí é hetero com força, la elee`;
   } else if (contarSim == 1) {
-    resultado.textContent = `\nParabéns, você não é viadinho, teve 75% de perguntas de ${nomePg6} `;
+    resultado.textContent = `\nParabéns ${nomePg6}, você não é viadinho, teve 75% de perguntas de nãos respondidas `;
   } else if (contarSim == 2) {
     resultado.textContent = `\nOlha, tu teve 50% de cada, se ta meio pá frente viu ${nomePg6} Hhehehe`;
   } else if (contarSim == 3) {
